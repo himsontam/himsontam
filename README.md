@@ -41,4 +41,4 @@ Here are some ideas to get you started:
  
 <!-- BLOG-POST-LIST:END -->
 
-<!-- tutorial link to set this up ---> https://javascript.plainenglish.io/how-to-create-a-kick-ass-github-profile-in-5-minutes-19a8e8d0693b -->
+<!-- tutorial link to set this up > https://javascript.plainenglish.io/how-to-create-a-kick-ass-github-profile-in-5-minutes-19a8e8d0693b  -->
