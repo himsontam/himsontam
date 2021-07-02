@@ -1,7 +1,7 @@
 # Hi there 👋 Nice to meet you all 👋
 ## Welcome to my Github Profile 👋
 
-Specialties:
+### Specialties:
 - Hands-on different types of project-based environments, specify in the fintech payment system.
 Experience in QA software testing, software development, and user-acceptance testing.
 - Software Skills – Python, Java, HTML, CSS, Selenium, Maven, Powershell script, Command-Line
