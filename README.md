@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-I am a fullstack software engineer from bangladesh
+<!-- I am a fullstack software engineer from bangladesh
 - 🔭 Working on multiple frontend and backend project using React and Nodejs
 - 🌱 Learning design patterns in depth
 <br>
@@ -36,7 +36,9 @@ I am a fullstack software engineer from bangladesh
 <br>
 <br>
 
-## Blog posts
+## Blog posts -->
 <!-- BLOG-POST-LIST:START -->
  
 <!-- BLOG-POST-LIST:END -->
+
+<!-- tutorial link to set this up ---> https://javascript.plainenglish.io/how-to-create-a-kick-ass-github-profile-in-5-minutes-19a8e8d0693b -->
