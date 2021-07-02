@@ -1,4 +1,6 @@
 ### Hi there 👋
+### Nice to meet you all 👋
+### Welcome to my Github Profile 👋
 
 <!--
 **himsontam/himsontam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
