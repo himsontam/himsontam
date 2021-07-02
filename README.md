@@ -1,6 +1,13 @@
-### Hi there 👋
-### Nice to meet you all 👋
-### Welcome to my Github Profile 👋
+# Hi there 👋 Nice to meet you all 👋
+## Welcome to my Github Profile 👋
+
+Specialties:
+- Hands-on different types of project-based environments, specify in the fintech payment system.
+Experience in QA software testing, software development, and user-acceptance testing.
+- Software Skills – Python, Java, HTML, CSS, Selenium, Maven, Powershell script, Command-Line
+- Tools – Microsoft VS Code, Microsoft Visual Studio, Linux, Jenkins, Git, JIRA, Android Studio, Eclipse
+- Fast learner and independent worker with strong analytical and troubleshooting skills
+- Fluent in English, Cantonese, and Mandarin
 
 <!--
 **himsontam/himsontam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -21,7 +28,7 @@ Here are some ideas to get you started:
 - 🌱 Learning design patterns in depth-->
 
 <br>
-## Connect with me
+### Connect with me
 
 [<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](www.linkedin.com/in/himson-tam)
 <!-- [<img align="left" alt="medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />](https://56faisal.medium.com/)
