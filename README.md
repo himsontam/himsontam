@@ -65,7 +65,11 @@ Experience in QA software testing, software development, and user-acceptance tes
 <img align="left" alt="cordova" src="https://img.shields.io/badge/Cordova-35434F?style=for-the-badge&logo=apache-cordova&logoColor=E8E8E8" />
 <img align="left" alt="flask" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
 
-### cloud / Server Expertise
+
+<br>
+<br>
+
+### Cloud / Server Expertise
 <img align="left" alt="heroku" src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
 <img align="left" alt="AWS" src="https://img.shields.io/badge/AmazonAWS-{232F3E}?style=for-the-badge&logo=amazonaws&logoColor=white" />
 <img align="left" alt="googlecloud" src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
