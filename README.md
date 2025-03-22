@@ -17,9 +17,9 @@ In parallel with my QA career, I’m actively expanding my skill set into the fi
 - 🧪 **Practical Hands-on Labs**: TryHackMe, Virtual Hacking Labs  
 - 🧠 **Certification Tracks**:
   - CompTIA Security+ (in progress)
-  - TCM BLT1 (Basic Linux & Networking)
-  - PNPT (Practical Network Penetration Tester)
-  - OSCP (Offensive Security Certified Professional) – long-term goal
+  - TCM BLT1 (Basic Linux & Networking) (Planning)
+  - PNPT (Practical Network Penetration Tester) (Planning)
+  - OSCP (Offensive Security Certified Professional) – long-term goal (Planning)
 
 This journey is helping me combine my strengths in QA and development with a growing knowledge of cybersecurity, allowing me to contribute to secure, high-performing software in modern IT World environments.
 
