@@ -1,4 +1,4 @@
-# 👋 Hi there! Welcome to my Cybersecurity GitHub Profile
+# 👋 Hi there! Welcome to my Cybersecurity GitHub Portfolio
 
 ## 🧑‍💻 About Me
 
