@@ -1,7 +1,7 @@
 # 👋 Hi there! Welcome to my Cybersecurity GitHub Portfolio
 
 <p align="center">
-  <img src="./docs/profile.jpg" width="150" alt="Himson Tam"
+  <img src="./docs/profile.jpg" width="150" alt="Lok Him Tam"
        style="border-radius: 50%; display: block; margin: auto;" />
 </p>
 
