@@ -1,5 +1,10 @@
 # 👋 Hi there! Welcome to my Cybersecurity GitHub Portfolio
 
+<p align="center">
+  <img src="./docs/profile.jpg" width="150" alt="Himson Tam"
+       style="border-radius: 50%; display: block; margin: auto;" />
+</p>
+
 ## 🧑‍💻 About Me
 
 I'm **Hismon Tam**, a QA engineer with over 8 years of professional experience in software quality assurance, user acceptance testing, and software development. 
