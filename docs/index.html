@@ -1,9 +1,163 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My GitHub Pages Site</title>
-</head>
-<body>
-    <h1>Welcome to My GitHub Pages Site!</h1>
-</body>
-</html>
+// ✅ Full updated portfolio with all requested enhancements
+
+import { useEffect } from 'react';
+import { motion } from 'framer-motion';
+import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Github, Linkedin, Mail } from 'lucide-react';
+
+export default function Portfolio() {
+  useEffect(() => {
+    document.title = "Lok Him Tam | Cybersecurity & QA Portfolio";
+  }, []);
+
+  return (
+    <div className="bg-gray-50 text-gray-800 font-sans">
+      {/* Header */}
+      <header className="bg-gradient-to-r from-blue-900 to-gray-900 text-white py-12 px-4 text-center">
+        <motion.img
+          src="/profile.jpg"
+          alt="Lok Him Tam"
+          className="mx-auto w-32 h-32 rounded-full border-4 border-white mb-4"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+        />
+        <motion.h1 className="text-3xl font-bold" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+          Lok Him Tam
+        </motion.h1>
+        <p className="text-lg mt-2">Cloud Security • DevSecOps • QA Engineering</p>
+        <div className="flex justify-center gap-4 mt-4">
+          <a href="https://github.com/himsontam" target="_blank" rel="noopener noreferrer">
+            <Github className="w-6 h-6" />
+          </a>
+          <a href="https://linkedin.com/in/himson-tam" target="_blank" rel="noopener noreferrer">
+            <Linkedin className="w-6 h-6" />
+          </a>
+          <a href="mailto:lokhimtamhimson@gmail.com">
+            <Mail className="w-6 h-6" />
+          </a>
+        </div>
+      </header>
+
+      {/* About Me */}
+      <section className="py-12 px-6 max-w-4xl mx-auto">
+        <h2 className="text-2xl font-bold mb-4">About Me</h2>
+        <p className="mb-4">
+          I’m a cybersecurity-focused QA Engineer with 8+ years of international experience in software development, quality assurance, and secure cloud infrastructure. I specialize in helping FinTech companies integrate robust security practices into software and cloud platforms.
+        </p>
+        <p>
+          My technical background spans web/mobile app development, secure automation pipelines, and DevSecOps strategies using tools like AWS, Azure, Jenkins, Cypress, and Docker. With a deep belief in continuous improvement, I actively pursue certifications and hands-on labs to strengthen my expertise.
+        </p>
+      </section>
+
+      {/* Professional Experience */}
+      <section className="bg-white py-12 px-6 max-w-4xl mx-auto">
+        <h2 className="text-2xl font-bold mb-4">💼 Professional Experience</h2>
+        <div className="space-y-6">
+          <div>
+            <h3 className="text-xl font-semibold">Cloud Security Engineer | Securtia</h3>
+            <p className="text-sm text-gray-600">Mar 2024 – Present | London, UK</p>
+            <ul className="list-disc list-inside mt-2 space-y-1">
+              <li>Implemented Azure AD authentication, RBAC, and disk encryption for secure access</li>
+              <li>Created secure VNet peering and hardened Azure infrastructure</li>
+              <li>Monitored environments using Azure Security Center and Sentinel</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">QA Engineer | YouLend</h3>
+            <p className="text-sm text-gray-600">Oct 2021 – Present | London, UK</p>
+            <ul className="list-disc list-inside mt-2 space-y-1">
+              <li>Built Cypress automation integrated with Azure DevOps</li>
+              <li>Reduced critical bugs by 30% by aligning QA with security goals</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Education */}
+      <section className="py-12 px-6 max-w-4xl mx-auto">
+        <h2 className="text-2xl font-bold mb-4">🎓 Education</h2>
+        <div className="space-y-4">
+          <div>
+            <h3 className="text-xl font-semibold">B.A. Applied Computer Science</h3>
+            <p className="text-sm text-gray-600">University of Washington | 2016 – 2018</p>
+            <p className="mt-1 text-gray-700 text-sm">Courses: Data Structures, Networks & Security, Web Dev, Testing</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">A.A. Computer Science</h3>
+            <p className="text-sm text-gray-600">Shoreline College | 2013 – 2016</p>
+            <p className="mt-1 text-gray-700 text-sm">Courses: Cybersecurity Fundamentals, Cryptography</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Certifications */}
+      <section className="bg-white py-12 px-6 max-w-4xl mx-auto">
+        <h2 className="text-2xl font-bold mb-4">Certifications & Training</h2>
+        <ul className="list-disc list-inside space-y-2">
+          <li><strong>✅ Completed:</strong> ISTQB Certified Tester, CompTIA Security+</li>
+          <li><strong>📚 In Progress:</strong> Cybersecurity Bootcamp (Peak Cyber Institute), Security+ (review), AZ-500 labs</li>
+          <li><strong>🔭 Planning:</strong> TCM BLT1 (Basic Linux & Networking), PNPT (Practical Network Penetration Tester), OSCP (Long-term Goal)</li>
+        </ul>
+      </section>
+
+      {/* Lab Projects */}
+      <section className="py-12 px-6 max-w-4xl mx-auto">
+        <h2 className="text-2xl font-bold mb-4">🛠️ Lab Projects</h2>
+        <h3 className="text-xl font-semibold mb-2">AZ-500 Lab Projects</h3>
+        <p className="mb-4">
+          I’ve completed a full set of Azure-based security labs, applying practical concepts including:
+        </p>
+        <ul className="list-disc list-inside space-y-2">
+          <li>Azure Security Center, Key Vault, Defender, RBAC, Azure Firewall, and Sentinel</li>
+          <li>Disk Encryption, App Authentication, Network Security Groups (NSG)</li>
+          <li>Monitoring and role-based access implementations in a secure cloud environment</li>
+        </ul>
+        <Button className="mt-4" asChild>
+          <a href="https://github.com/himsontam/az500-lab" target="_blank" rel="noopener noreferrer">
+            View AZ-500 Lab Repository
+          </a>
+        </Button>
+      </section>
+
+      {/* Resume Download */}
+      <section className="py-12 px-6 max-w-4xl mx-auto text-center">
+        <Button size="lg" className="text-lg font-semibold" asChild>
+          <a href="/resume-himson-tam.pdf" target="_blank" rel="noopener noreferrer">
+            📄 Download My Resume
+          </a>
+        </Button>
+      </section>
+
+      {/* Personality Strengths */}
+      <section className="bg-white py-12 px-6 max-w-4xl mx-auto">
+        <h2 className="text-2xl font-bold mb-4">Personality-Based Strengths</h2>
+        <p className="mb-4">
+          Based on DISC and Big Five assessments, I bring a unique mix of precision, emotional resilience, and curiosity to cybersecurity:
+        </p>
+        <ul className="list-disc list-inside mb-4 space-y-2">
+          <li><strong>🔍 Analytical:</strong> Strong detail orientation and pattern recognition—crucial for vulnerability analysis</li>
+          <li><strong>📐 Systematic:</strong> High conscientiousness—great for following security protocols and checklists</li>
+          <li><strong>🌍 Adaptable:</strong> Thrive in evolving tech and threat landscapes</li>
+          <li><strong>🤝 Collaborative:</strong> Team-oriented and cooperative, essential in cross-functional teams</li>
+        </ul>
+        <p className="font-semibold">Areas I’m actively improving:</p>
+        <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>🗣️ Assertive Communication in high-pressure or leadership scenarios</li>
+          <li>🧠 Proactive Risk Management and threat anticipation</li>
+          <li>🎯 Dynamic Leadership during incident response or technical crises</li>
+        </ul>
+      </section>
+
+      {/* Elevator Pitch */}
+      <section className="bg-blue-900 text-white py-10 text-center">
+        <h2 className="text-xl font-bold">“I help FinTech companies secure their cloud platforms so they can innovate with confidence.”</h2>
+      </section>
+
+      {/* Footer */}
+      <footer className="text-center py-8 text-sm bg-gray-100">
+        &copy; {new Date().getFullYear()} Lok Him Tam. Built for the future of secure software.
+      </footer>
+    </div>
+  );
+}
