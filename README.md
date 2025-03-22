@@ -2,7 +2,7 @@
 
 ## 🧑‍💻 About Me
 
-I'm **Lok Him Tam**, a QA engineer with over 8 years of professional experience in software quality assurance, user acceptance testing, and software development. 
+I'm **Hismon Tam**, a QA engineer with over 8 years of professional experience in software quality assurance, user acceptance testing, and software development. 
 I specialize in crafting robust testing strategies and integrating QA processes seamlessly into DevOps workflows to ensure digital products are not only functional but secure.
 
 With a strong technical foundation in tools and languages such as Cypress, JavaScript, Java, Python, Postman, Jenkins, Docker, MySQL, Azure, 
